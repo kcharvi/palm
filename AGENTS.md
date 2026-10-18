@@ -1,6 +1,6 @@
 # Working on Palm
 
-Palm is a native macOS learning app. Its public repository is `REDDITARUN/palm`; the product name is **Palm**. Read `README.md`, `docs/ARCHITECTURE.md`, and the relevant ADR before changing behavior.
+Palm is a native macOS learning app. Its public repository is `kcharvi/palm`; the product name is **Palm**. Read `README.md`, `docs/ARCHITECTURE.md`, and the relevant ADR before changing behavior.
 
 ## Layout
 

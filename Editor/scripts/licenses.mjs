@@ -14,5 +14,5 @@ for(const folder of [...new Set(folders)].sort()){
     if(fs.statSync(path.join(folder,file)).isFile()) fs.copyFileSync(path.join(folder,file),path.join(destination,pkg.name.replaceAll('/','-').replace('@','')+'-'+file+'.txt'));
   }
 }
-notice+='\nBlockNote is MPL-2.0. Unmodified corresponding source is available from each exact npm package version above and https://github.com/TypeCellOS/BlockNote.\nPalm does not include BlockNote XL AI. Integration source: Editor/src in https://github.com/REDDITARUN/palm.\n';
+notice+='\nBlockNote is MPL-2.0. Unmodified corresponding source is available from each exact npm package version above and https://github.com/TypeCellOS/BlockNote.\nPalm does not include BlockNote XL AI. Integration source: Editor/src in https://github.com/kcharvi/palm.\n';
 fs.writeFileSync(path.join(destination,'NOTICE.txt'),notice);

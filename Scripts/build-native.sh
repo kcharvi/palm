@@ -28,7 +28,7 @@ python3 Scripts/portable-bundle.py "dist/$app_name.app" "$configuration"
 python3 - "dist/$app_name.app" <<'PYCODE'
 import pathlib,plistlib,sys
 app=pathlib.Path(sys.argv[1]); info=plistlib.loads((app/'Contents/Info.plist').read_bytes())
-assert info.get('SUFeedURL') == 'https://redditarun.github.io/palm/appcast.xml', 'Missing Sparkle feed URL'
+assert info.get('SUFeedURL') == 'https://kcharvi.github.io/palm/appcast.xml', 'Missing Sparkle feed URL'
 assert info.get('SUPublicEDKey') == pathlib.Path('Assets/UpdatePublicKey.txt').read_text().strip(), 'Missing Sparkle update verification key'
 assert info.get('SUVerifyUpdateBeforeExtraction') is True
 assert info.get('CFBundleVersion') == pathlib.Path('VERSION').read_text().strip()

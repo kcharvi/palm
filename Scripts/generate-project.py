@@ -7,7 +7,7 @@ def ident(text): return hashlib.sha256(text.encode()).hexdigest()[:24].upper()
 objects = []
 update_key = (root / "Assets/UpdatePublicKey.txt").read_text().strip()
 version = (root / "VERSION").read_text().strip()
-info = {"SUFeedURL": "https://redditarun.github.io/palm/appcast.xml", "SUPublicEDKey": update_key,
+info = {"SUFeedURL": "https://kcharvi.github.io/palm/appcast.xml", "SUPublicEDKey": update_key,
         "SUEnableAutomaticChecks": False, "SUAutomaticallyUpdate": False, "SUVerifyUpdateBeforeExtraction": True}
 (root / "Assets/PalmInfo.plist").write_bytes(plistlib.dumps(info))
 def obj(key, body):

@@ -9,7 +9,7 @@
 ## Native app
 
 ```sh
-git clone https://github.com/REDDITARUN/palm.git
+git clone https://github.com/kcharvi/palm.git
 cd palm
 swift test
 bash Scripts/build-native.sh --test

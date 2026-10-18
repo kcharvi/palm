@@ -2,7 +2,7 @@
 
 ## 1. Install Palm
 
-Download the Apple silicon disk image from [Releases](https://github.com/REDDITARUN/palm/releases/latest), open it, and drag Palm into Applications. Requires macOS 15+. This community build is ad-hoc signed and not Apple-notarized.
+Download the Apple silicon disk image from [Releases](https://github.com/kcharvi/palm/releases/latest), open it, and drag Palm into Applications. Requires macOS 15+. This community build is ad-hoc signed and not Apple-notarized.
 
 If macOS says **Apple could not verify Palm**, and you trust the copy downloaded from this repository:
 

@@ -40,7 +40,7 @@ struct UpdateSettings: View {
             Toggle("Check for updates automatically", isOn: $updater.automaticChecks).disabled(!updater.enabled)
             Text("Updates come from Palm’s GitHub releases and are verified before installation. Your courses, notes, progress, and model connections stay on this Mac.").font(.system(size: 12)).foregroundStyle(.secondary)
             if !updater.enabled { Text("Update installation is disabled in development and test builds.").font(.caption).foregroundStyle(.secondary) }
-            Link("View releases ↗", destination: URL(string: "https://github.com/REDDITARUN/palm/releases")!).font(.system(size: 12))
+            Link("View releases ↗", destination: URL(string: "https://github.com/kcharvi/palm/releases")!).font(.system(size: 12))
         }
     }
 }

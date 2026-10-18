@@ -9,7 +9,7 @@ People need a straightforward way to understand, download, install, and contribu
 
 ## Decision
 
-Publish original source under MIT in REDDITARUN/palm, retain dependency licenses, distribute an Apple silicon Release app in a drag-to-Applications DMG, and host a dependency-free website from a gh-pages branch. Keep source and release artifacts separate.
+Publish original source under MIT in kcharvi/palm, retain dependency licenses, distribute an Apple silicon Release app in a drag-to-Applications DMG, and host a dependency-free website from a gh-pages branch. Keep source and release artifacts separate.
 
 ## Alternatives considered
 

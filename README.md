@@ -3,7 +3,7 @@
 <h1>Palm</h1>
 <p>A quieter way to learn code. A better way to remember it.</p>
 <p>Free, open-source learning software for your Mac. Bring your own AI model.</p>
-<p><a href="https://REDDITARUN.github.io/palm/">Website</a> · <a href="https://github.com/REDDITARUN/palm/releases/latest">Download for Mac</a> · <a href="docs/GETTING_STARTED.md">Get started</a> · <a href="docs/ARCHITECTURE.md">Architecture</a></p>
+<p><a href="https://kcharvi.github.io/palm/">Website</a> · <a href="https://github.com/kcharvi/palm/releases/latest">Download for Mac</a> · <a href="docs/GETTING_STARTED.md">Get started</a> · <a href="docs/ARCHITECTURE.md">Architecture</a></p>
 </div>
 
 ## Learn from questions. Learn from your code.
@@ -19,7 +19,7 @@ Pick a technical topic or a repository. Palm builds a learning path, explains id
 
 ## Install
 
-Download the [Palm 1.0.3 disk image](https://github.com/REDDITARUN/palm/releases/download/v1.0.3/Palm-1.0.3-macOS-arm64.dmg), open it, and drag Palm into Applications. Requires Apple silicon (M1 or later) and macOS 15+.
+Download the [Palm 1.0.3 disk image](https://github.com/kcharvi/palm/releases/download/v1.0.3/Palm-1.0.3-macOS-arm64.dmg), open it, and drag Palm into Applications. Requires Apple silicon (M1 or later) and macOS 15+.
 
 **This community build is ad-hoc signed and not Apple-notarized.** If macOS says Apple could not verify Palm and you trust your copy from this repository, attempt to open it once, then use **System Settings → Privacy & Security → Open Anyway → Open**. [Apple’s instructions](https://support.apple.com/en-us/102445). These steps are for the verification warning, not an alert that the app will damage your computer or contains malware.
 
@@ -52,7 +52,7 @@ Fresh libraries are stored in `~/Library/Application Support/Palm/`. Updates reu
 Use a Mac with Xcode (the project is tested with Xcode 26 / Swift 6). Node 22+ is needed when rebuilding the embedded editor.
 
 ```sh
-git clone https://github.com/REDDITARUN/palm.git
+git clone https://github.com/kcharvi/palm.git
 cd palm
 swift test
 bash Scripts/build-native.sh --release
@@ -70,6 +70,10 @@ npm run build
 ```
 
 [Development guide](docs/DEVELOPMENT.md) · [Contributing](CONTRIBUTING.md) · [Agent instructions](AGENTS.md) · [Architecture decisions](docs/adr/README.md) · [Release guide](docs/RELEASING.md) · [Changelog](CHANGELOG.md)
+
+## Collaborators
+
+- Reddi Tarun
 
 ## License
 

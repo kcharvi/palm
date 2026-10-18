@@ -465,4 +465,4 @@ zwitch 2.0.4 — MIT
 Source: https://www.npmjs.com/package/zwitch/v/2.0.4
 
 BlockNote is MPL-2.0. Unmodified corresponding source is available from each exact npm package version above and https://github.com/TypeCellOS/BlockNote.
-Palm does not include BlockNote XL AI. Integration source: Editor/src in https://github.com/REDDITARUN/palm.
+Palm does not include BlockNote XL AI. Integration source: Editor/src in https://github.com/kcharvi/palm.

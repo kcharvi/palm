@@ -51,8 +51,8 @@ Palm is free and open source. Your AI provider's pricing and limits apply.
 Inkling free logs prompts and outputs for model improvement; use
 non-confidential learning material. Other models have their own policies.
 
-Guide: https://github.com/REDDITARUN/palm/blob/main/docs/GETTING_STARTED.md
-Source and licenses: https://github.com/REDDITARUN/palm
+Guide: https://github.com/kcharvi/palm/blob/main/docs/GETTING_STARTED.md
+Source and licenses: https://github.com/kcharvi/palm
 TEXT
 if [ "$community" = true ]; then
     cat >> "$stage/Read me first.txt" <<'NOTICE'

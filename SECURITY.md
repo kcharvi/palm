@@ -4,7 +4,7 @@ Palm keeps its library on your Mac and stores provider credentials in macOS Keyc
 
 Repository imports exclude common secret filenames and build folders, but this is not a comprehensive secret scanner. Inspect what you import. Custom MCP tools run with the access granted by their configuration; install tools you trust.
 
-For a vulnerability, use [GitHub private vulnerability reporting](https://github.com/REDDITARUN/palm/security/advisories/new) if enabled. Do not put exploit credentials, personal databases, or private source code in a public issue. Report the affected version, impact, and a minimal reproduction with synthetic data.
+For a vulnerability, use [GitHub private vulnerability reporting](https://github.com/kcharvi/palm/security/advisories/new) if enabled. Do not put exploit credentials, personal databases, or private source code in a public issue. Report the affected version, impact, and a minimal reproduction with synthetic data.
 
 The downloadable community builds are ad-hoc signed and not Apple-notarized. macOS may say Apple could not verify Palm. This wording does not report a malware detection. The earlier report of a “will damage your computer” warning was corrected by the reporter; the precautionary download pause has ended. Signature integrity and download checksums passed, but neither establishes that software is safe.
 

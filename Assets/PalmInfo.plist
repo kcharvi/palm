@@ -7,7 +7,7 @@
 	<key>SUEnableAutomaticChecks</key>
 	<false/>
 	<key>SUFeedURL</key>
-	<string>https://redditarun.github.io/palm/appcast.xml</string>
+	<string>https://kcharvi.github.io/palm/appcast.xml</string>
 	<key>SUPublicEDKey</key>
 	<string>ZiaiXNOUiCCO95EtxnCoMUD4THpHgKis92LkrN15iHg=</string>
 	<key>SUVerifyUpdateBeforeExtraction</key>
