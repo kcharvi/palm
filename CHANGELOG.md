@@ -1,0 +1,35 @@
+# Changelog
+
+## 1.0.2 — 2026-09-08
+
+- Saved provider connections, explicit Save / Save & use, persistent custom model IDs, and Forget API key.
+- ChatGPT browser sign-in through OpenCode with isolated subscription credentials, model discovery, cancellation, and sign-out.
+- Task-specific model routes can share a saved provider connection.
+- Course deletion keeps notes and flashcards; repository removal preserves original files and saved lesson evidence.
+
+
+- Click a code element to select its AST node directly; expand or shrink to surrounding code without dragging or opening a menu.
+
+- Make syntax selection highlight the actual expression or enclosing code block; add language aliases and a direct Ask action.
+- Align notebook editable line boxes with text to reduce oversized WebKit cursors.
+- Add verified-distribution packaging checks. Restore existing community installers after clarification that the reported alert is the standard unnotarized-app verification warning; document first-open steps.
+
+## 1.0.1 — 2026-09-07
+
+- Correct the product, source modules, installer, and website name to Palm; preserve existing libraries and credentials.
+- Apply the website’s sage diagrams, soft highlights, and code surfaces throughout learning and notes.
+- Add offline syntax highlighting to the editable notebook.
+- Give answer choices letter badges, responsive columns, and clear selection/feedback states.
+
+## 1.0.0 — 2026-09-07
+
+First public source and Apple silicon macOS release.
+
+- Generated learning paths for technical topics and repository understanding.
+- Mixed practice, model-based written-answer feedback, hints, reflection, and spaced review.
+- Editable block notes with code, math, diagrams, highlights, links, flashcards, and a side tutor.
+- Daily course suggestions, optional reminders, activity history, achievements, and a growing pixel tree.
+- A local knowledge graph with note previews, filters, related notes, and native navigation.
+- OpenRouter, OpenAI, and compatible endpoints; Keychain credentials; SQLite library and backups.
+- Read-only repository exploration with optional Serena, OpenCode, local memory indexing, and configurable MCP tools.
+- Drag-to-Applications disk image, contributor documentation, architecture decisions, and a GitHub Pages website.

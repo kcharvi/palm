@@ -1,0 +1,13 @@
+* text=auto
+*.swift text eol=lf
+*.sh text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.png binary
+*.icns binary
+*.store binary
+Sources/PalmCore/Resources/Editor/index.html linguist-generated=true -whitespace
+Sources/PalmCore/Resources/Editor/Licenses/** linguist-vendored=true -whitespace
+Sources/PalmCore/Resources/ThirdParty/** linguist-vendored=true -whitespace
+Sources/PalmCore/Resources/Diagrams/mermaid.min.js linguist-vendored=true -whitespace
+Palm.xcodeproj/project.pbxproj linguist-generated=true
